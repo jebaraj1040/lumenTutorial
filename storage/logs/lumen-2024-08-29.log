@@ -1,0 +1,16 @@
+[2024-08-29 12:27:23] local.ERROR: Command "tinker" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"tinker\" is not defined. at /var/www/html/shfl-be/vendor/symfony/console/Application.php:737)
+[stacktrace]
+#0 /var/www/html/shfl-be/vendor/symfony/console/Application.php(266): Symfony\\Component\\Console\\Application->find()
+#1 /var/www/html/shfl-be/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#2 /var/www/html/shfl-be/vendor/laravel/lumen-framework/src/Console/Kernel.php(160): Symfony\\Component\\Console\\Application->run()
+#3 /var/www/html/shfl-be/artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#4 {main}
+"} 
+[2024-08-29 12:29:11] local.ERROR: Command "tinker" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"tinker\" is not defined. at /var/www/html/shfl-be/vendor/symfony/console/Application.php:737)
+[stacktrace]
+#0 /var/www/html/shfl-be/vendor/symfony/console/Application.php(266): Symfony\\Component\\Console\\Application->find()
+#1 /var/www/html/shfl-be/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#2 /var/www/html/shfl-be/vendor/laravel/lumen-framework/src/Console/Kernel.php(160): Symfony\\Component\\Console\\Application->run()
+#3 /var/www/html/shfl-be/artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#4 {main}
+"} 

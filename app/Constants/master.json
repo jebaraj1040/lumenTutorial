@@ -1,0 +1,193 @@
+{
+    "master_data": {
+        "products": [
+            {
+                "id": 1,
+                "name": "HL New",
+                "code": "HLNew",
+                "is_active": 1
+            },
+            {
+                "id": 2,
+                "name": "HL Resale",
+                "code": "HLResale",
+                "is_active": 1
+            },
+            {
+                "id": 3,
+                "name": "HL Extension loan",
+                "code": "HLExt",
+                "is_active": 1
+            },
+            {
+                "id": 4,
+                "name": "HL Improvement",
+                "code": "HLImp",
+                "is_active": 1
+            },
+            {
+                "id": 5,
+                "name": "HL Balance Transfer + Top up",
+                "code": "HLBTTopup",
+                "is_active": 1
+            },
+            {
+                "id": 6,
+                "name": "HL Balance Transfer",
+                "code": "HLBT",
+                "is_active": 1
+            },
+            {
+                "id": 7,
+                "name": "HL Top up",
+                "code": "HLTopup",
+                "is_active": 1
+            },
+            {
+                "id": 8,
+                "name": "HL Plot +  Constuction",
+                "code": "HLPltConst",
+                "is_active": 1
+            },
+            {
+                "id": 9,
+                "name": "HL Balance Transfer + Extension",
+                "code": "HLBTExt",
+                "is_active": 1
+            },
+            {
+                "id": 10,
+                "name": "HL Balance Transfer + Improvement",
+                "code": "HLBTImp",
+                "is_active": 1
+            },
+            {
+                "id": 11,
+                "name": "LAP Residential",
+                "code": "LAPResi",
+                "is_active": 1
+            },
+            {
+                "id": 12,
+                "name": "LAP Commercial",
+                "code": "LAPCom",
+                "is_active": 1
+            },
+            {
+                "id": 13,
+                "name": "LAP Top up",
+                "code": "LAPTopup",
+                "is_active": 1
+            }
+        ],
+        "industry_type": [
+            {
+                "id": 1,
+                "name": "Abrasive powder or grain on a base",
+                "is_active": 1
+            },
+            {
+                "id": 2,
+                "name": "Acetic Acid",
+                "is_active": 1
+            },
+            {
+                "id": 3,
+                "name": "Alcohol, Spirits, Liquor",
+                "is_active": 1
+            },
+            {
+                "id": 4,
+                "name": "Aluminium",
+                "is_active": 1
+            },
+            {
+                "id": 5,
+                "name": "Aluminium containers and foils",
+                "is_active": 1
+            }
+        ],
+        "employment_types": [
+            {
+                "id": 1,
+                "name": "Salaried",
+                "is_active": 1
+            },
+            {
+                "id": 2,
+                "name": "Self Employed",
+                "is_active": 1
+            }
+        ],
+        "industry_segment": [
+            {
+                "id": 1,
+                "name": "Manufacturing",
+                "is_active": 1
+            },
+            {
+                "id": 2,
+                "name": "Services",
+                "is_active": 1
+            }
+        ],
+        "property_types": [
+            {
+                "id": 1,
+                "name": "Property Type 1",
+                "is_active": 1
+            },
+            {
+                "id": 2,
+                "name": "Property Type 2",
+                "is_active": 1
+            }
+        ],
+        "property_current_states": [
+            {
+                "id": 1,
+                "name": "Vacant",
+                "is_active": 1
+            },
+            {
+                "id": 2,
+                "name": "Self Occupied",
+                "is_active": 1
+            },
+            {
+                "id": 3,
+                "name": "Rented",
+                "is_active": 1
+            }
+        ],
+        "document_types": [
+            {
+                "id": 1,
+                "name": "Income Document",
+                "max_file": 3,
+                "max_size_per_file_mb": 3,
+                "allowed_extensions": "JPG, PNG, PDF",
+                "applicable_for": "APPLICANT",
+                "is_active": 1
+            },
+            {
+                "id": 2,
+                "name": "Business Proof",
+                "max_file": 2,
+                "max_size_per_file_mb": 3,
+                "allowed_extensions": "JPG, PNG, PDF",
+                "applicable_for": "APPLICANT",
+                "is_active": 1
+            },
+            {
+                "id": 3,
+                "name": "Floor Plan Proof",
+                "max_file": 2,
+                "max_size_per_file_mb": 3,
+                "allowed_extensions": "JPG, PNG, PDF",
+                "applicable_for": "PROPERTY",
+                "is_active": 1
+            }
+        ]
+    }
+}

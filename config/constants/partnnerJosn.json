@@ -1,0 +1,28 @@
+{
+    "data": {
+        "code": "200",
+        "status": "true",
+        "partner_details": [
+            {
+                "id": 100101,
+                "name": "Partner 1"
+            },
+            {
+                "id": 100102,
+                "name": "Partner 2"
+            },
+            {
+                "id": 100103,
+                "name": "Partner 3"
+            },
+            {
+                "id": 100104,
+                "name": "Partner 4"
+            },
+            {
+                "id": 100105,
+                "name": "Partner 5"
+            }
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+[2024-09-16 19:00:55] local.ERROR: Unable to resolve dependency [Parameter #0 [ <required> $app ]] in class Closure {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Unable to resolve dependency [Parameter #0 [ <required> $app ]] in class Closure at /var/www/html/shfl-be/vendor/illuminate/container/BoundMethod.php:188)
+[stacktrace]
+#0 /var/www/html/shfl-be/vendor/illuminate/container/BoundMethod.php(124): Illuminate\\Container\\BoundMethod::addDependencyForCallParameter()
+#1 /var/www/html/shfl-be/vendor/illuminate/container/BoundMethod.php(36): Illuminate\\Container\\BoundMethod::getMethodDependencies()
+#2 /var/www/html/shfl-be/vendor/illuminate/container/Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /var/www/html/shfl-be/vendor/illuminate/container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#4 /var/www/html/shfl-be/vendor/illuminate/container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#5 /var/www/html/shfl-be/vendor/illuminate/container/Container.php(662): Illuminate\\Container\\BoundMethod::call()
+#6 /var/www/html/shfl-be/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(304): Illuminate\\Container\\Container->call()
+#7 /var/www/html/shfl-be/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(269): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#8 /var/www/html/shfl-be/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(171): Laravel\\Lumen\\Application->handleFoundRoute()
+#9 /var/www/html/shfl-be/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(431): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#10 /var/www/html/shfl-be/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(167): Laravel\\Lumen\\Application->sendThroughPipeline()
+#11 /var/www/html/shfl-be/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch()
+#12 /var/www/html/shfl-be/public/index.php(28): Laravel\\Lumen\\Application->run()
+#13 {main}
+"} 
